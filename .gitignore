@@ -24,3 +24,4 @@ yarn-error.log*
 /.idea/modules.xml
 /.idea/test-asignment.iml
 /.idea/vcs.xml
+/package-lock.json

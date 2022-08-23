@@ -1,5 +1,5 @@
 import {createUseStyles} from 'react-jss';
-import { borders } from '../utils/consts/styleVariables';
+import { borders, sizes } from '../utils/consts/styleVariables';
 
 export const useStyles = createUseStyles({
   CounterWrapper: {
@@ -17,5 +17,12 @@ export const useStyles = createUseStyles({
     borderRadius: '3px',
     padding: '12px',
     flexWrap: 'wrap'
+  },
+  [`@media (max-width: ${sizes.mobileSize})`]: {
+    CounterWrapper: {
+      width: '100vw',
+      height: '100vh',
+      padding: '5px 0 0 0',
+    }
   },
 })

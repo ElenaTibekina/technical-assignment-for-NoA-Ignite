@@ -37,7 +37,7 @@ export const spaces = {
 // sizes
 export const sizes = {
   cardHeight: '300px',
-  mobileSize: '490px'
+  mobileSize: '700px'
 }
 
 // symbols
