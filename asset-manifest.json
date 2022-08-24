@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/technical-assignment-for-NoA-Ignite/static/js/main.7b646879.js",
+    "main.js": "/technical-assignment-for-NoA-Ignite/static/js/main.2c0ce9da.js",
     "index.html": "/technical-assignment-for-NoA-Ignite/index.html",
-    "main.7b646879.js.map": "/technical-assignment-for-NoA-Ignite/static/js/main.7b646879.js.map"
+    "main.2c0ce9da.js.map": "/technical-assignment-for-NoA-Ignite/static/js/main.2c0ce9da.js.map"
   },
   "entrypoints": [
-    "static/js/main.7b646879.js"
+    "static/js/main.2c0ce9da.js"
   ]
 }
