@@ -9,7 +9,7 @@ export const useStyles = createUseStyles((theme) => ({
     padding: spaces.defaultCardPadding,
     marginTop: spaces.defaultCardMarginTop,
     height: sizes.cardHeight,
-    overflow: 'scroll',
+    overflow: 'hidden',
     width: '90%',
     border: borders.cardBorder,
     borderRadius: borders.cardBorderRadius,
