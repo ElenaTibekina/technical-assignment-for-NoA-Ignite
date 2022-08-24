@@ -36,7 +36,7 @@ export const spaces = {
 
 // sizes
 export const sizes = {
-  cardHeight: '300px',
+  cardHeight: '30vh',
   mobileSize: '700px'
 }
 

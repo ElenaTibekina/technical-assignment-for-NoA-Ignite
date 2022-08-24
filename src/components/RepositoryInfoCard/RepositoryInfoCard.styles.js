@@ -26,9 +26,16 @@ export const useStyles = createUseStyles((theme) => ({
   [`@media (max-width: ${sizes.mobileSize})`]: {
     CardWrapper: {
       paddingTop: spaces.defaultPaddingTop,
+
     },
     InfoCard: {
-      paddingTop: spaces.defaultPaddingTop
+      paddingTop: spaces.defaultPaddingTop,
+      overflow: 'scroll',
+      height: '50vh',
+      '& > h3, p': {
+        margin: '3px',
+        padding: '3px'
+      },
     }
   },
 }));
